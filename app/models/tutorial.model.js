@@ -5,6 +5,9 @@ module.exports = (sequelize, Sequelize) => {
     },
     time: {
       type: Sequelize.STRING
+    },
+    track: {
+      type: Sequelize.STRING
     }
   });
 
